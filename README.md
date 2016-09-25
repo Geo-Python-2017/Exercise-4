@@ -1,4 +1,4 @@
-# Exercise 4: Functions and libraries
+# Exercise 4: A temperature calculator
 In this week's exercise you are asked to...
 
 After making your changes, you will need to upload these files to GitHub.

@@ -7,7 +7,9 @@ The answers to the questions in this week's exercise should be given by modifyin
 ## Problem 0 - Mid-term course feedback requested
 Before you get started on the exercise, we'd like for you to take 5 minutes to provide us with some feedback on how the course is going so far.
 This is the first time we're teaching the course in this format, and we would be very pleased to have your honest thoughts (positive or negative) about how things are going.
-Feedback is **completely anonymous** and can be given using [an electronic course feedback form](https://elomake.helsinki.fi/lomakkeet/73256/lomake.html).
+Feedback is **completely anonymous**.
+
+[**Course feedback e-form**](https://elomake.helsinki.fi/lomakkeet/73256/lomake.html)
 
 ## Problem 1 - 
 

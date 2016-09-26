@@ -30,12 +30,34 @@ There is also one function ( _temp_calculator()_ ) that works as a simple user c
 At the end of the script there are three use cases where different functionalities of the script are tested. If everything in the script is working properly these test cases should produce following
 outputs:
 
+  ```python
+  >>> print("32 Fahrenheits is in Celsius:", fahr_to_celsius(32))
+  32 Fahrenheits is in Celsius: 0.0
+  >>> print("100 Celsius is in Kelvin:", celsius_to_kelvin(temp_c=100))
+  100 Celsius is in Kelvin: 373.15
+  >>> print("50 Fahrenheits is in Kelvin:", fahr_to_kelvin(temp_f=50))
+  50 Fahrenheits is in Kelvin: 283.15000000000003
+  
+  >>> temperature = 30
+  >>> converted_temp = temp_calculator(temp=temperature, convert_from="C", convert_to="F")
+  >>> print("Temperature %s in Celsius is %s in Fahrenheit" % (temperature, converted_temp))
+  Temperature 30 in Celsius is 86.0 in Fahrenheit
+  
+  >>> temperature = 50
+  >>> converted_temp = temp_calculator(temp=temperature, convert_from="K", convert_to="F")
+  >>> print("Temperature %s in Kelvin is %s in Fahrenheit" % (temperature, converted_temp))
+  Temperature 50 in Kelvin is -369.66999999999996 in Fahrenheit
 
-
+  >>> temperature = -20
+  >>> converted_temp = temp_calculator(temp=temperature, convert_from="F", convert_to="C")
+  >>> print("Temperature %s in Fahrenheit is %s in Celsius" % (temperature, converted_temp))
+  Temperature -20 in Fahrenheit is -28.88888888888889 in Celsius
+  ```
+  
 _**Note**_:
 
-We hope you can get the whole script working but it is not the end of the world if you cannot get all of its functionalities working. The main point in this exercise is that you get a first 
-experience of how more "proper" programs are done by taking advantage of functions.   
+We hope that you can get the whole script working but _it is not the end of the world_ if you cannot fix all of its functionalities. The main point in this exercise is that you get a first 
+experience of how more "proper" programs can be created by taking advantage of functions.   
 
 ### Questions for Problem 1
 

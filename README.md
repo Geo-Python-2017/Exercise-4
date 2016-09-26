@@ -17,7 +17,7 @@ Feedback is **completely anonymous**.
 Your first and only task for this week (except giving feedback) is to create a temperature calculator that is used for converting temperatures between Celsius, Fahrenheit and Kelvin. 
 You are asked to modify and add functionalities to the functions in [temp_converter.py](temp_converter.py) -file. The temp_converter.py -script is **broken** in its current state, 
 thus we want you to fix it by going through the tasks denoted with numbers in the script (1-4). The comments in the script will guide you, and instruct what to do in different parts of the code. 
-There are missing parts in the code denoted with _XX_ letters. Modify the script and add your own code to places where letters XX are present.  
+There are missing parts in the code denoted with _**XX**_ letters. Modify the script and add your own code to places where letters _**XX**_ are present.  
 
 In the script you have 6 functions for converting temperatures between different types. Templates for these functions are pre-filled in the script but you need to modify them (three of them). 
 We provide you links to materials where you can find the correct mathematical formulas to convert temperatures between different types.  

@@ -116,26 +116,23 @@ def temp_calculator(temp, XX, convert_to):
     else:
         print("Input temperature type", convert_from, "was not detected. Possible values are 'C' for Celsius, 'K' for Kelvin and 'F' for Fahrenheit.")
 
-# 5. Testing the functions
+# Testing the functions
 # ------------------------
 
-# 5.1 Test prints for new functions
+# Test prints for new functions
 print("32 Fahrenheits is in Celsius:", fahr_to_celsius(32))
 print("100 Celsius is in Kelvin:", celsius_to_kelvin(temp_c=100))
 print("50 Fahrenheits is in Kelvin:", fahr_to_kelvin(temp_f=50))
 
-# 5.2 Testing temp_converter -function (not working unless the function has been fixed)
-# 1.
+# Testing temp_converter -function (not working unless the function has been fixed)
 temperature = 30
 converted_temp = temp_calculator(temp=temperature, convert_from="C", convert_to="F")
 print("Temperature %s in Celsius is %s in Fahrenheit" % (temperature, converted_temp))
 
-# 2.
 temperature = 50
 converted_temp = temp_calculator(temp=temperature, convert_from="K", convert_to="F")
 print("Temperature %s in Kelvin is %s in Fahrenheit" % (temperature, converted_temp))
 
-# 3.
 temperature = -20
 converted_temp = temp_calculator(temp=temperature, convert_from="F", convert_to="C")
 print("Temperature %s in Fahrenheit is %s in Celsius" % (temperature, converted_temp))

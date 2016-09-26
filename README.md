@@ -33,8 +33,10 @@ outputs:
   ```python
   >>> print("32 Fahrenheits is in Celsius:", fahr_to_celsius(32))
   32 Fahrenheits is in Celsius: 0.0
+  
   >>> print("100 Celsius is in Kelvin:", celsius_to_kelvin(temp_c=100))
   100 Celsius is in Kelvin: 373.15
+  
   >>> print("50 Fahrenheits is in Kelvin:", fahr_to_kelvin(temp_f=50))
   50 Fahrenheits is in Kelvin: 283.15000000000003
   
@@ -53,6 +55,8 @@ outputs:
   >>> print("Temperature %s in Fahrenheit is %s in Celsius" % (temperature, converted_temp))
   Temperature -20 in Fahrenheit is -28.88888888888889 in Celsius
   ```
+
+**Upload your updated _temp_converter.py_ -script to your personal GitHub repository.** 
   
 _**Note**_:
 
@@ -61,28 +65,29 @@ experience of how more "proper" programs can be created by taking advantage of f
 
 ### Questions for Problem 1
 
+In addition to providing your updated temp_converter.py script, we wish you to think and answer to following questions based on the materials and ideas that you learned during the lecture:
+  
+  1. Is the concept of function clear to you? If not, what do you not understand?
+  2. What are the benefits of using functions in your script?
+  3. Does it matter in which order the functions are written in a script? If you think it does, why?
+   
+
 ## General tips
 
 We will add general tips here later. 
 
 # Answers
 
-## Problem 1
+Upload your updated _temp_converter.py_ -script to your personal GitHub repository.
 
+## Problem 1 - Answers to questions
 
-**TODO:**
+### 1. 
 
-_Temparature converter exercise:_
+### 2.
 
-1. Add functions to temp_converter.py -file:
-  - Celsius to Kelvin
-  - Fahrenheit to Kelvin
-  - Fahrenheit to Celsius
-2. Continue adding stuff for calculator.py
-  - Student should add third parameter thus having (temp, convert_from, convert_to)
-  - Calculator should ask which is the input temperature type ('K' | 'C' | 'F') and to which temperature the value will be converted ('K' | 'C' | 'F')
- 
- 
+### 3. 
+
 
 
 

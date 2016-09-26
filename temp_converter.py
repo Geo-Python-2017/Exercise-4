@@ -102,15 +102,17 @@ def temp_calculator(temp, XX, convert_to):
 
     # 4.4 Add a condition to check if input temperature (i.e. 'convert_from') is in Fahrenheit ("F")
     elif XX :
-        # 4.3.1 Add conditional statement and conversion to convert Fahrenheit to Celsius
+        # 4.4.1 Add conditional statement and conversion to convert Fahrenheit to Celsius
         if XX :
             converted_temp = XX
-        # 4.3.2 Add conditional statement and conversion to convert Fahrenheit to Kelvin
+        # 4.4.2 Add conditional statement and conversion to convert Fahrenheit to Kelvin
         elif XX :
             converted_temp = XX
         else:
             # If other values are passed to 'convert_to' column, return None as result
             converted_temp = None
+        # 4.4.3 Add a return statement for returning the value in 'converted_temp' -variable.
+        XX
 
     # If input temperature ('convert_from') is something else than ('C' | 'K' | 'F') send a notification about the issue.
     else:

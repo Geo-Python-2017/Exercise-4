@@ -20,7 +20,7 @@ Create a script called `converter.py` where you should write your code for Probl
 You should do following (also criteria for grading):
 
   - create a function called `fahrToCelsius` into `converter.py`
-  - function should have one input parameter called `fahrenheit`
+  - function should have one input parameter called `temp_f`
   - inside the function, create a variable called `converted_temp` where you should store the conversion result (i.e. the input Fahrenheit temperature converted to Celsius)
   - The conversion formula from Fahrenheit to Celsius is:
        - ![](img/Fahrenheit_to_Celsius_formula.PNG)

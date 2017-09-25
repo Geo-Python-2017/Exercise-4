@@ -15,21 +15,21 @@ Feedback is **completely anonymous**.
 ## Problem 1 - Simple temperature calculator (6 points)
 
 In the first problem your aim is to create a function that converts the input temperature from Fahrenheit to Celsius.
-Create a script called `converter.py` where you should write your code for Problem 1.
+Create a script called `temp_analyzer.py` where you should write your code for Problem 1.
 
 You should do following (also criteria for grading):
 
-  - create a function called `fahrToCelsius` into `converter.py`
-  - function should have one input parameter called `temp_f`
-  - inside the function, create a variable called `converted_temp` where you should store the conversion result (i.e. the input Fahrenheit temperature converted to Celsius)
+  - create a function called `fahrToCelsius` into `temp_analyzer.py`
+  - function should have one input parameter called `temp_fahrenheit`
+  - inside the function, create a variable called `converted_temp` in which you should assign the conversion result (i.e. the input Fahrenheit temperature converted to Celsius)
   - The conversion formula from Fahrenheit to Celsius is:
        - ![](img/Fahrenheit_to_Celsius_formula.PNG)
   - return the converted value from the function back to the user
+  - comment your code and add a docstring that explains how to use your `fahrToCelsius` function (i.e. you should write the purpose of the function, parameters, and return values)
   - test and use your newly created function by printing out the results for following questions:
      - What is 48 Fahrenheits in Celsius?
      - What about 71 Fahrenheits in Celsius?
-  - Comment your code and add a docstring that explains how to use your `fahrToCelsius` function (i.e. you should write the purpose of the function, parameters, and return values)
-  - Upload and commit your script `converter.py` to your own GitHub Exercise 4 repository
+  - Upload and commit your script `temp_analyzer.py` to your own GitHub Exercise 4 repository
 
 If everything in your script is working properly the following test case should work:
 
@@ -41,9 +41,29 @@ If everything in your script is working properly the following test case should 
 ## Problem 2 - Temperature classifier (7 points)
 
 In the [last week's exercise (Problem 2)](https://github.com/Geo-Python-2017/Exercise-3) we practiced how to classify temperatures
-into four different classes (cold, slippery, comfortable, warm). Let's continue working with the same idea.
+into four different classes (*i.e. cold, slippery, comfortable, warm*). Let's continue working with the same idea. Here, you should create a function that
+accepts a temperature value in Celsius that will be reclassified into integer numbers 0-3 based on following criteria:
 
-Create another script called `classify.py` where you should write your code for Problem 2.
+ | Return value | Classification criteria                  |
+ |---|-----------------------------------------------------|
+ | 0 | temperatures below -2 degrees (Celsius)             |
+ | 1 | temperatures from -2 up to +2 degrees (Celsius)    |
+ | 2 | temperatures from +2 up to +15 degrees (Celsius)   |
+ | 3 | temperatures above +15 degrees (Celsius)            |
+
+Continue working on `temp_analyzer.py` where you should place your code for this problem (Problem 2).
+
+Your code should do following (also criteria for grading):
+
+  - create a new function called `tempClassifier`
+  - `tempClassifier` should have one parameter called `temp_celsius`
+  - your function should check and reclassify the input temperature based on the criteria on the above table.
+  - return the reclassified value as an integer number (i.e. number 0, 1, 2, or 3)
+  - comment your code and add a docstring that explains how to use your `tempClassifier` function (i.e. you should write the purpose of the function, parameters, and return value(s))
+  - test and use your newly created function by printing out the results for following questions:
+     - What is the reclassified value for 16.5 degrees (Celsius)?
+     - What is the reclassified value for +2 degrees (Celsius)?
+  - Commit the changes of your `temp_analyzer.py` script to your own GitHub Exercise 4 repository
 
 ## Problem 3 - Classify temperatures (7 points)
 

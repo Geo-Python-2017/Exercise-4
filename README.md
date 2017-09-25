@@ -22,7 +22,8 @@ You should do following (also criteria for grading):
   - create a function called `fahrToCelsius` into `converter.py`
   - function should have one input parameter called `fahrenheit`
   - inside the function, create a variable called `converted_temp` where you should store the conversion result (i.e. the input Fahrenheit temperature converted to Celsius)
-  - The conversion formula from Fahrenheit to Celsius is ![](img/Fahrenheit_to_Celsius_formula.PNG)
+  - The conversion formula from Fahrenheit to Celsius is:
+       - ![](img/Fahrenheit_to_Celsius_formula.PNG)
   - return the converted value from the function back to the user
   - test and use your newly created function by printing out the results for following questions:
      - What is 48 Fahrenheits in Celsius?

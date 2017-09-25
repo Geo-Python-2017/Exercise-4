@@ -1,4 +1,4 @@
-# Exercise 4: A temperature calculator
+# Exercise 4: Classifying and converting temperatures
 
 In this week's exercise you are asked to create a simple tool that converts temperatures from one temperature-type to another.
 

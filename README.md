@@ -12,9 +12,47 @@ Feedback is **completely anonymous**.
 
 [**Course feedback e-form**](https://elomake.helsinki.fi/lomakkeet/73256/lomake.html)
 
-## Problem 1 - Temperature calculator
+## Problem 1 - Simple temperature calculator (6 points)
 
-Your first and only task for this week (except giving feedback) is to create a temperature calculator that is used for converting temperatures between Celsius, Fahrenheit and Kelvin. 
+In the first problem your aim is to create a function that converts the input temperature from Fahrenheit to Celsius.
+Create a script called `converter.py` where you should write your code for Problem 1.
+
+You should do following (also criteria for grading):
+
+  - create a function called `fahrToCelsius` into `converter.py`
+  - function should have one input parameter called `fahrenheit`
+  - inside the function, create a variable called `converted_temp` where you should store the conversion result (i.e. the input Fahrenheit temperature converted to Celsius)
+  - The conversion formula from Fahrenheit to Celsius is ![](img/Fahrenheit_to_Celsius_formula.PNG)
+  - return the converted value from the function back to the user
+  - test and use your newly created function by printing out the results for following questions:
+     - What is 48 Fahrenheits in Celsius?
+     - What about 71 Fahrenheits in Celsius?
+  - Comment your code and add a docstring that explains how to use your `fahrToCelsius` function (i.e. you should write the purpose of the function, parameters, and return values)
+  - Upload and commit your script `converter.py` to your own GitHub Exercise 4 repository
+
+If everything in your script is working properly the following test case should work:
+
+  ```python
+  >>> print("32 Fahrenheits is in Celsius:", fahrToCelsius(32))
+  32 Fahrenheits is in Celsius: 0.0
+  ```
+
+## Problem 2 - Temperature classifier (7 points)
+
+In the [last week's exercise (Problem 2)](https://github.com/Geo-Python-2017/Exercise-3) we practiced how to classify temperatures
+into four different classes (cold, slippery, comfortable, warm). Let's continue working with the same idea.
+
+Create another script called `classify.py` where you should write your code for Problem 2.
+
+## Problem 3 - Classify temperatures (7 points)
+
+
+
+
+
+## Problem 2 -
+
+Your first and only task for this week (except giving feedback) is to create a temperature calculator that is used for converting temperatures between Celsius, Fahrenheit and Kelvin.
 You are asked to modify and add functionalities to the functions in [temp_converter.py](temp_converter.py) -file. The temp_converter.py -script is **broken** in its current state, 
 thus we want you to fix it by going through the tasks denoted with numbers in the script (1-4). The comments in the script will guide you, and instruct what to do in different parts of the code. 
 There are missing parts in the code denoted with _**XX**_ letters. Modify the script and add your own code to places where letters _**XX**_ are present.  

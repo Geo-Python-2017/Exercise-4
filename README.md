@@ -1,25 +1,32 @@
 # Exercise 4: Classifying and converting temperatures
 
-In this week's exercise you are asked to create a simple tool that converts temperatures from one temperature-type to another.
+The exercise for this week is meant to help you to understand how to use functions in Python.
+In this week's exercise you are asked to create a simple tool that converts temperatures from
+one temperature-type to another and then classify those temperatures into specific temperature classes.
 
-After making your changes, you will need to upload these files to GitHub.
+After making your changes, you will need to upload your files to GitHub.
 The answers to the questions in this week's exercise should be given by modifying the end of this document in the [section titled Answers](#answers).
 
+- **Exercise 4 is dye by the start of lecture on 4.11.**
+- Don't forget to check out [the hints for this week's exercise](https://geo-python.github.io/2017/lessons/L4/exercise-4-hints.html) if you're having trouble.
+- Scores on this exercise are out of 20 points.
+
 ## Problem 0 - Mid-term course feedback requested
+
 Before you get started on the exercise, we'd like for you to take 5 minutes to provide us with some feedback on how the course is going so far.
 This is the first time we're teaching the course in this format, and we would be very pleased to have your honest thoughts (positive or negative) about how things are going.
 Feedback is **completely anonymous**.
 
-[**Course feedback e-form**](https://elomake.helsinki.fi/lomakkeet/73256/lomake.html)
+[**Course feedback e-form**](https://elomake.helsinki.fi/lomakkeet/82679/lomake.html)
 
 ## Problem 1 - Simple temperature calculator (6 points)
 
 In the first problem your aim is to create a function that converts the input temperature from Fahrenheit to Celsius.
-Create a script called `temp_analyzer.py` where you should write your code for Problem 1.
+Create a script called `functions.py` where you should write your code for Problem 1.
 
 You should do following (also criteria for grading):
 
-  - create a function called `fahrToCelsius` into `temp_analyzer.py`
+  - create a function called `fahrToCelsius` into `functions.py`
   - function should have one input parameter called `temp_fahrenheit`
   - inside the function, create a variable called `converted_temp` in which you should assign the conversion result (i.e. the input Fahrenheit temperature converted to Celsius)
   - The conversion formula from Fahrenheit to Celsius is:
@@ -29,7 +36,7 @@ You should do following (also criteria for grading):
   - test and use your newly created function by printing out the results for following questions:
      - What is 48 Fahrenheits in Celsius?
      - What about 71 Fahrenheits in Celsius?
-  - Upload and commit your script `temp_analyzer.py` to your own GitHub Exercise 4 repository
+  - Upload and commit your script `functions.py` to your own GitHub Exercise 4 repository
 
 If everything in your script is working properly the following test case should work:
 
@@ -37,6 +44,16 @@ If everything in your script is working properly the following test case should 
   >>> print("32 Fahrenheits is in Celsius:", fahrToCelsius(32))
   32 Fahrenheits is in Celsius: 0.0
   ```
+
+### Questions for Problem 1
+
+We wish you to think and answer to following questions based on the materials and ideas that you learned during the lecture:
+
+  1. Is the concept of function clear to you? If not, what do you not understand?
+  2. What are the benefits of using functions in your script?
+  3. Does it matter in which order the functions are written in a script? If you think it does, why?
+
+Write your answers to the [Answers](#answers) -section at the end of this file.
 
 ## Problem 2 - Temperature classifier (7 points)
 
@@ -51,9 +68,9 @@ accepts a temperature value in Celsius that will be reclassified into integer nu
  | 2 | temperatures from +2 up to +15 degrees (Celsius)   |
  | 3 | temperatures above +15 degrees (Celsius)            |
 
-Continue working on `temp_analyzer.py` where you should place your code for this problem (Problem 2).
+Continue working on `functions.py` where you should place your code for this problem (Problem 2).
 
-Your code should do following (also criteria for grading):
+You should do following (also criteria for grading):
 
   - create a new function called `tempClassifier`
   - `tempClassifier` should have one parameter called `temp_celsius`
@@ -63,81 +80,48 @@ Your code should do following (also criteria for grading):
   - test and use your newly created function by printing out the results for following questions:
      - What is the reclassified value for 16.5 degrees (Celsius)?
      - What is the reclassified value for +2 degrees (Celsius)?
-  - Commit the changes of your `temp_analyzer.py` script to your own GitHub Exercise 4 repository
+  - Commit the changes of your `functions.py` script to your own GitHub Exercise 4 repository
 
 ## Problem 3 - Classify temperatures (7 points)
 
+Finally, we can bring the pieces together that we have created thus far. In the last problem your aim is to take
+advantage of the previous functions and reclassify a dataset of Fahrenheit temperatures into four different classes.
+You should create a new script called `temp_analyzer.py` where you add all your codes related to Problem 3.
 
+The temperature values are provided in the [data.py](data.py) file that looks like following:
 
-
-
-## Problem 2 -
-
-Your first and only task for this week (except giving feedback) is to create a temperature calculator that is used for converting temperatures between Celsius, Fahrenheit and Kelvin.
-You are asked to modify and add functionalities to the functions in [temp_converter.py](temp_converter.py) -file. The temp_converter.py -script is **broken** in its current state, 
-thus we want you to fix it by going through the tasks denoted with numbers in the script (1-4). The comments in the script will guide you, and instruct what to do in different parts of the code. 
-There are missing parts in the code denoted with _**XX**_ letters. Modify the script and add your own code to places where letters _**XX**_ are present.  
-
-In the script you have 6 functions for converting temperatures between different types. Templates for these functions are pre-filled in the script but you need to modify them (three of them). 
-We provide you links to materials where you can find the correct mathematical formulas to convert temperatures between different types.  
-There is also one function ( _temp_calculator()_ ) that works as a simple user controller that should take 3 parameters as input (you need to modify and add your own code to the function): 
-
- - **temp** = parameter for passing temperature (numerical)
- - **convert\_from** = parameter that determines whether the **input** temperature is in Celsius, Fahrenheit or in Kelvin (using letters "C", "F" or "K" accordingly)
- - **convert\_to** = parameter that determines whether the **output** temperature is in Celsius, Fahrenheit or in Kelvin (using letters "C", "F" or "K" accordingly)
-
-At the end of the script there are three use cases where different functionalities of the script are tested. If everything in the script is working properly these test cases should produce following
-outputs:
-
-  ```python
-  >>> print("32 Fahrenheits is in Celsius:", fahr_to_celsius(32))
-  32 Fahrenheits is in Celsius: 0.0
-  
-  >>> print("100 Celsius is in Kelvin:", celsius_to_kelvin(temp_c=100))
-  100 Celsius is in Kelvin: 373.15
-  
-  >>> print("50 Fahrenheits is in Kelvin:", fahr_to_kelvin(temp_f=50))
-  50 Fahrenheits is in Kelvin: 283.15000000000003
-  
-  >>> temperature = 30
-  >>> converted_temp = temp_calculator(temp=temperature, convert_from="C", convert_to="F")
-  >>> print("Temperature %s in Celsius is %s in Fahrenheit" % (temperature, converted_temp))
-  Temperature 30 in Celsius is 86.0 in Fahrenheit
-  
-  >>> temperature = 50
-  >>> converted_temp = temp_calculator(temp=temperature, convert_from="K", convert_to="F")
-  >>> print("Temperature %s in Kelvin is %s in Fahrenheit" % (temperature, converted_temp))
-  Temperature 50 in Kelvin is -369.66999999999996 in Fahrenheit
-
-  >>> temperature = -20
-  >>> converted_temp = temp_calculator(temp=temperature, convert_from="F", convert_to="C")
-  >>> print("Temperature %s in Fahrenheit is %s in Celsius" % (temperature, converted_temp))
-  Temperature -20 in Fahrenheit is -28.88888888888889 in Celsius
+  ```
+  # List of half-hourly temperature values (in Fahrenheits) for one week
+  # Two first rows
+  temp_data = [19, 21, 21, 21, 23, 23, 23, 21, 19, 21, 19, 21, 23, 27, 27, 28, 30, 30, 32, 32, 32, 32, 34, 34,
+               34, 36, 36, 36, 36, 36, 36, 34, 34, 34, 34, 34, 34, 32, 30, 30, 30, 28, 28, 27, 27, 27, 23, 23, ]
   ```
 
-**Upload your updated _temp_converter.py_ -script to your personal GitHub repository.** 
-  
-_**Note**_:
+### Overview
 
-We hope that you can get the whole script working but _it is not the end of the world_ if you cannot fix all of its functionalities. The main point in this exercise is that you get a first 
-experience of how more "proper" programs can be created by taking advantage of functions.   
+The analysis process has three main steps:
 
-### Questions for Problem 1
+ 1. Read in the data from [data.py](data.py) and iterate over the Fahrenheit temperatures
+ 2. Convert the Fahrenheit temperature to Celsius using `fahrToCelsius` function from that was created in Problem 1
+ 3. Reclassify the converted temperature using the `tempClassifier` function that was created in Problem 2
 
-In addition to providing your updated temp_converter.py script, we wish you to think and answer to following questions based on the materials and ideas that you learned during the lecture:
-  
-  1. Is the concept of function clear to you? If not, what do you not understand?
-  2. What are the benefits of using functions in your script?
-  3. Does it matter in which order the functions are written in a script? If you think it does, why?
-   
+In more detail, your should do following (also criteria for grading):
 
-## General tips
+ - create a new script called `temp_analyzer.py` and write all your code to that script from now on
+ - in `temp_analyzer.py`, import the `temp_data` from [data.py](data.py) that is a list of Fahrenheit temperatures (list should have 336 values).
+ - import also the `fahrToCelsius` and `tempClassifier` functions from `functions.py`
+ - create an empty list called `temp_classes` (will be filled with temperature class numbers later)
+ - iterate over the Fahrenheit temperature values in the `temp_data` list (one by one) and:
+    - create a new variable called `temp_celsius` in which you should assign the temperature in Celsius by using the `fahrToCelsius` function to convert the Fahrenheit temperature into Celsius.
+    - create a new variable called `temp_class` in which you should assign the temperature class number (0, 1, 2, or 3) by using the `tempClassifier` function
+    - add the `temp_class` value into the `temp_classes` -list.
+ - How many temperatures are there within each temperature class?
+    - I.e. count the number of zeros, ones, twos, and threes in the `temp_classes` -list and print out the results
+    - Tip: You might want to consider using a [`count()` -function](https://www.tutorialspoint.com/python/list_count.htm) *OR* a `for` -loop to find this out.
+ - Commit your `temp_analyzer.py` script to your own GitHub Exercise 4 repository
 
-We will add general tips here later. 
 
 # Answers
-
-Upload your updated _temp_converter.py_ -script to your personal GitHub repository.
 
 ## Problem 1 - Answers to questions
 

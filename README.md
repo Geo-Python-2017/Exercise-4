@@ -77,9 +77,9 @@ You should do following (also criteria for grading):
   - your function should check and reclassify the input temperature based on the criteria on the above table.
   - return the reclassified value as an integer number (i.e. number 0, 1, 2, or 3)
   - comment your code and add a docstring that explains how to use your `tempClassifier` function (i.e. you should write the purpose of the function, parameters, and return value(s))
-  - test and use your newly created function by printing out the results for following questions:
-     - What is the reclassified value for 16.5 degrees (Celsius)?
-     - What is the reclassified value for +2 degrees (Celsius)?
+  - test and use your newly created function by finding out the results for following questions:
+     - What is class value for 16.5 degrees (Celsius)? ** ==> Add your answer here: **
+     - What is the class value for +2 degrees (Celsius)? ** ==> Add your answer here: **
   - Commit the changes of your `functions.py` script to your own GitHub Exercise 4 repository
 
 ## Problem 3 - Classify temperatures (7 points)

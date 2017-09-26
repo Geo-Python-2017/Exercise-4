@@ -7,7 +7,7 @@ one temperature-type to another and then classify those temperatures into specif
 After making your changes, you will need to upload your files to GitHub.
 The answers to the questions in this week's exercise should be given by modifying the document in places where asked or at the end of this document in the [section titled Answers](#answers).
 
-- **Exercise 4 is due by the start of lecture on 4.11.**
+- **Exercise 4 is due by the start of lecture on 4.10.**
 - Don't forget to check out [the hints for this week's exercise](https://geo-python.github.io/2017/lessons/L4/exercise-4-hints.html) if you're having trouble.
 - Scores on this exercise are out of 20 points.
 

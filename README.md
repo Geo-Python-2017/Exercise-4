@@ -64,9 +64,12 @@ accepts a temperature value in Celsius that will be reclassified into integer nu
  | Return value | Classification criteria                  |
  |---|-----------------------------------------------------|
  | 0 | temperatures below -2 degrees (Celsius)             |
- | 1 | temperatures from -2 up to +2 degrees (Celsius)    |
- | 2 | temperatures from +2 up to +15 degrees (Celsius)   |
+ | 1 | temperatures from -2 up to +2 degrees (Celsius)  [1] |
+ | 2 | temperatures from +2 up to +15 degrees (Celsius) [2] |
  | 3 | temperatures above +15 degrees (Celsius)            |
+
+ [1] *Values -2 and +2 should belong to this class*
+ [2] *Value +15 should belong to this class*
 
 Continue working on `functions.py` where you should place your code for this problem (Problem 2).
 

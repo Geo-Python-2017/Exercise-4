@@ -92,7 +92,7 @@ The temperature values are provided in the [data.py](data.py) file that looks li
 
   ```
   # List of half-hourly temperature values (in Fahrenheits) for one week
-  # Two first rows
+  # Showing first two rows
   temp_data = [19, 21, 21, 21, 23, 23, 23, 21, 19, 21, 19, 21, 23, 27, 27, 28, 30, 30, 32, 32, 32, 32, 34, 34,
                34, 36, 36, 36, 36, 36, 36, 34, 34, 34, 34, 34, 34, 32, 30, 30, 30, 28, 28, 27, 27, 27, 23, 23, ]
   ```

@@ -116,7 +116,7 @@ In more detail, your should do following (also criteria for grading):
     - create a new variable called `temp_class` in which you should assign the temperature class number (0, 1, 2, or 3) by using the `tempClassifier` function
     - add the `temp_class` value into the `temp_classes` -list.
  - How many temperatures are there within each temperature class?
-    - I.e. count the number of zeros, ones, twos, and threes in the `temp_classes` -list and print out the results
+    - I.e. count the number of zeros, ones, twos, and threes in the `temp_classes` -list and print out the results at the end of your script.
     - Tip: You might want to consider using a [`count()` -function](https://www.tutorialspoint.com/python/list_count.htm) *OR* a `for` -loop to find this out.
  - comment your code and add a docstring at the beginning of your script that explains what the `temp_analyzer` script does and how it is used.
  - commit your `temp_analyzer.py` script to your own GitHub Exercise 4 repository

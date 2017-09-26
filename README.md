@@ -7,7 +7,7 @@ one temperature-type to another and then classify those temperatures into specif
 After making your changes, you will need to upload your files to GitHub.
 The answers to the questions in this week's exercise should be given by modifying the end of this document in the [section titled Answers](#answers).
 
-- **Exercise 4 is dye by the start of lecture on 4.11.**
+- **Exercise 4 is due by the start of lecture on 4.11.**
 - Don't forget to check out [the hints for this week's exercise](https://geo-python.github.io/2017/lessons/L4/exercise-4-hints.html) if you're having trouble.
 - Scores on this exercise are out of 20 points.
 
@@ -118,8 +118,8 @@ In more detail, your should do following (also criteria for grading):
  - How many temperatures are there within each temperature class?
     - I.e. count the number of zeros, ones, twos, and threes in the `temp_classes` -list and print out the results
     - Tip: You might want to consider using a [`count()` -function](https://www.tutorialspoint.com/python/list_count.htm) *OR* a `for` -loop to find this out.
- - Commit your `temp_analyzer.py` script to your own GitHub Exercise 4 repository
-
+ - comment your code and add a docstring at the beginning of your script that explains what the `temp_analyzer` script does and how it is used.
+ - commit your `temp_analyzer.py` script to your own GitHub Exercise 4 repository
 
 # Answers
 

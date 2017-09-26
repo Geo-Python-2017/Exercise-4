@@ -74,7 +74,7 @@ You should do following (also criteria for grading):
 
   - create a new function called `tempClassifier`
   - `tempClassifier` should have one parameter called `temp_celsius`
-  - your function should check and reclassify the input temperature based on the criteria on the above table.
+  - your function should reclassify the input temperature based on the criteria on the above table.
   - return the reclassified value as an integer number (i.e. number 0, 1, 2, or 3)
   - comment your code and add a docstring that explains how to use your `tempClassifier` function (i.e. you should write the purpose of the function, parameters, and return value(s))
   - test and use your newly created function by finding out the results for following questions:

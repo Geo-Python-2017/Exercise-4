@@ -5,7 +5,7 @@ In this week's exercise you are asked to create a simple tool that converts temp
 one temperature-type to another and then classify those temperatures into specific temperature classes.
 
 After making your changes, you will need to upload your files to GitHub.
-The answers to the questions in this week's exercise should be given by modifying the end of this document in the [section titled Answers](#answers).
+The answers to the questions in this week's exercise should be given by modifying the document in places where asked or at the end of this document in the [section titled Answers](#answers).
 
 - **Exercise 4 is due by the start of lecture on 4.11.**
 - Don't forget to check out [the hints for this week's exercise](https://geo-python.github.io/2017/lessons/L4/exercise-4-hints.html) if you're having trouble.
@@ -33,9 +33,9 @@ You should do following (also criteria for grading):
        - ![](img/Fahrenheit_to_Celsius_formula.PNG)
   - return the converted value from the function back to the user
   - comment your code and add a docstring that explains how to use your `fahrToCelsius` function (i.e. you should write the purpose of the function, parameters, and return values)
-  - test and use your newly created function by printing out the results for following questions:
-     - What is 48 Fahrenheits in Celsius?
-     - What about 71 Fahrenheits in Celsius?
+  - test and use your newly created function by finding out the results for following questions:
+     - What is 48 Fahrenheits in Celsius? ** ==> Add your answer here: **
+     - What about 71 Fahrenheits in Celsius? ** ==> Add your answer here: **
   - Upload and commit your script `functions.py` to your own GitHub Exercise 4 repository
 
 If everything in your script is working properly the following test case should work:

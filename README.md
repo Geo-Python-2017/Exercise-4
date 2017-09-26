@@ -34,8 +34,8 @@ You should do following (also criteria for grading):
   - return the converted value from the function back to the user
   - comment your code and add a docstring that explains how to use your `fahrToCelsius` function (i.e. you should write the purpose of the function, parameters, and return values)
   - test and use your newly created function by finding out the results for following questions:
-     - What is 48 Fahrenheits in Celsius? ** ==> Add your answer here: **
-     - What about 71 Fahrenheits in Celsius? ** ==> Add your answer here: **
+     - What is 48 Fahrenheits in Celsius? **==> Add your answer here:**
+     - What about 71 Fahrenheits in Celsius? **==> Add your answer here:**
   - Upload and commit your script `functions.py` to your own GitHub Exercise 4 repository
 
 If everything in your script is working properly the following test case should work:
@@ -78,8 +78,8 @@ You should do following (also criteria for grading):
   - return the reclassified value as an integer number (i.e. number 0, 1, 2, or 3)
   - comment your code and add a docstring that explains how to use your `tempClassifier` function (i.e. you should write the purpose of the function, parameters, and return value(s))
   - test and use your newly created function by finding out the results for following questions:
-     - What is class value for 16.5 degrees (Celsius)? ** ==> Add your answer here: **
-     - What is the class value for +2 degrees (Celsius)? ** ==> Add your answer here: **
+     - What is class value for 16.5 degrees (Celsius)? **==> Add your answer here:**
+     - What is the class value for +2 degrees (Celsius)? **==> Add your answer here:**
   - Commit the changes of your `functions.py` script to your own GitHub Exercise 4 repository
 
 ## Problem 3 - Classify temperatures (7 points)

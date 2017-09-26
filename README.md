@@ -21,39 +21,39 @@ Feedback is **completely anonymous**.
 
 ## Problem 1 - Simple temperature calculator (6 points)
 
-In the first problem your aim is to create a function that converts the input temperature from Fahrenheit to Celsius.
+In the first problem your aim is to create a function that converts the input temperature from degrees Fahrenheit to degrees Celsius.
 Create a script called `functions.py` where you should write your code for Problem 1.
 
 You should do following (also criteria for grading):
 
-  - create a function called `fahrToCelsius` into `functions.py`
-  - function should have one input parameter called `temp_fahrenheit`
-  - inside the function, create a variable called `converted_temp` in which you should assign the conversion result (i.e. the input Fahrenheit temperature converted to Celsius)
+  - Create a function called `fahrToCelsius` in `functions.py`
+  - The function should have one input parameter called `tempFahrenheit`
+  - Inside the function, create a variable called `convertedTemp` to which you should assign the conversion result (i.e., the input Fahrenheit temperature converted to Celsius)
   - The conversion formula from Fahrenheit to Celsius is:
        - ![](img/Fahrenheit_to_Celsius_formula.PNG)
-  - return the converted value from the function back to the user
-  - comment your code and add a docstring that explains how to use your `fahrToCelsius` function (i.e. you should write the purpose of the function, parameters, and return values)
-  - test and use your newly created function by finding out the results for following questions:
-     - What is 48 Fahrenheits in Celsius? **==> Add your answer here:**
-     - What about 71 Fahrenheits in Celsius? **==> Add your answer here:**
-  - Upload and commit your script `functions.py` to your own GitHub Exercise 4 repository
+  - Return the converted value from the function back to the user
+  - Comment your code and add a docstring that explains how to use your `fahrToCelsius` function (i.e., you should write the purpose of the function, parameters, and returned values)
+  - Test and use your newly created function by finding the results for following questions:
+     - What is 48° Fahrenheit in Celsius? **==> Add your answer here:**
+     - What about 71° Fahrenheit in Celsius? **==> Add your answer here:**
+  - Upload and commit your script with the name `functions.py` in your own GitHub repository for Exercise 4
 
 If everything in your script is working properly the following test case should work:
 
   ```python
-  >>> print("32 Fahrenheits is in Celsius:", fahrToCelsius(32))
-  32 Fahrenheits is in Celsius: 0.0
+  >>> print("32 degrees Fahrenheit in Celsius is:", fahrToCelsius(32))
+  32 degrees Fahrenheit in Celsius is: 0.0
   ```
 
 ### Questions for Problem 1
 
-We wish you to think and answer to following questions based on the materials and ideas that you learned during the lecture:
+We would like you to think about and answer the following questions based on the materials and ideas that you learned during the lecture:
 
   1. Is the concept of function clear to you? If not, what do you not understand? (**0.25 points**)
   2. What are the benefits of using functions in your script? (**0.5 points**)
   3. Does it matter in which order the functions are written in a script? If you think it does, why? (**0.25 points**)
 
-Write your answers to the [Answers](#answers) -section at the end of this file.
+Write your answers to the [Answers](#answers) section at the end of this file.
 
 ## Problem 2 - Temperature classifier (7 points)
 

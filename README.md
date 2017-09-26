@@ -57,30 +57,31 @@ Write your answers to the [Answers](#answers) section at the end of this file.
 
 ## Problem 2 - Temperature classifier (7 points)
 
-In the [last week's exercise (Problem 2)](https://github.com/Geo-Python-2017/Exercise-3) we practiced how to classify temperatures
-into four different classes (*i.e. cold, slippery, comfortable, warm*). Let's continue working with the same idea. Here, you should create a function that
-accepts a temperature value in Celsius that will be reclassified into integer numbers 0-3 based on following criteria:
+In [Problem 2 of last week's exercise](https://github.com/Geo-Python-2017/Exercise-3) we practiced classifying temperatures
+into four different classes (*i.e., cold, slippery, comfortable, warm*). Let's continue working with the same idea.
 
- | Return value | Classification criteria                  |
- |---|-----------------------------------------------------|
- | 0 | temperatures below -2 degrees (Celsius)             |
- | 1 | temperatures from -2 up to +2 degrees (Celsius)    |
- | 2 | temperatures from +2 up to +15 degrees (Celsius)   |
- | 3 | temperatures above +15 degrees (Celsius)            |
+Here, you should create a function that accepts a temperature value in Celsius that will be reclassified into integer numbers 0-3 based on following criteria:
 
-Continue working on `functions.py` where you should place your code for this problem (Problem 2).
+ | Returned value | Classification criteria                  |
+ |---|-------------------------------------------------------|
+ | 0 | temperatures below -2 degrees (Celsius)               |
+ | 1 | temperatures from -2 up to +2 degrees (Celsius)       |
+ | 2 | temperatures from +2 up to +15 degrees (Celsius)      |
+ | 3 | temperatures above +15 degrees (Celsius)              |
+
+This function can be added to your `functions.py` script started in Problem 1.
 
 You should do following (also criteria for grading):
 
-  - create a new function called `tempClassifier`
-  - `tempClassifier` should have one parameter called `temp_celsius`
-  - your function should reclassify the input temperature based on the criteria on the above table.
-  - return the reclassified value as an integer number (i.e. number 0, 1, 2, or 3)
-  - comment your code and add a docstring that explains how to use your `tempClassifier` function (i.e. you should write the purpose of the function, parameters, and return value(s))
-  - test and use your newly created function by finding out the results for following questions:
+  - Create a new function called `tempClassifier`
+  - `tempClassifier` should have one parameter called `tempCelsius`
+  - Your function should reclassify the input temperature based on the criteria in the table above
+  - Return the reclassified value as an integer number (i.e., 0, 1, 2, or 3)
+  - Add comments in your code and a docstring that explains how to use your `tempClassifier` function (i.e., you should write the purpose of the function, parameters, and returned value(s))
+  - Test and use your newly created function by finding the results for following questions:
      - What is class value for 16.5 degrees (Celsius)? **==> Add your answer here:**
      - What is the class value for +2 degrees (Celsius)? **==> Add your answer here:**
-  - Commit the changes of your `functions.py` script to your own GitHub Exercise 4 repository
+  - Commit the changes to your `functions.py` script to your own GitHub repository for Exercise 4
 
 ## Problem 3 - Classify temperatures (7 points)
 

@@ -68,6 +68,7 @@ into four different classes (*i.e., cold, slippery, comfortable, warm*). Let's c
  | 3 | temperatures above +15 degrees (Celsius)            |
 
  [1] *Values -2 and +2 should belong to this class*
+
  [2] *Value +15 should belong to this class*
 
 This function can be added to your `functions.py` script started in Problem 1.

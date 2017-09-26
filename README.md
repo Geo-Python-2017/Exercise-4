@@ -85,16 +85,16 @@ You should do following (also criteria for grading):
 
 ## Problem 3 - Classify temperatures (7 points)
 
-Finally, we can bring the pieces together that we have created thus far. In the last problem your aim is to take
-advantage of the previous functions and reclassify a dataset of Fahrenheit temperatures into four different classes.
-You should create a new script called `temp_analyzer.py` where you add all your codes related to Problem 3.
+Finally, we can bring together the pieces that we have created thus far. In the last problem your aim is to take
+advantage of your new functions and reclassify a dataset of temperatures in Fahrenheit into four different classes.
+You should create a new script called `temp_analyzer.py` where you add all your code related to Problem 3.
 
 The temperature values are provided in the [data.py](data.py) file that looks like following:
 
   ```
-  # List of half-hourly temperature values (in Fahrenheits) for one week
+  # List of half-hourly temperature values (in degrees Fahrenheit) for one week
   # Showing first two rows
-  temp_data = [19, 21, 21, 21, 23, 23, 23, 21, 19, 21, 19, 21, 23, 27, 27, 28, 30, 30, 32, 32, 32, 32, 34, 34,
+  tempData = [19, 21, 21, 21, 23, 23, 23, 21, 19, 21, 19, 21, 23, 27, 27, 28, 30, 30, 32, 32, 32, 32, 34, 34,
                34, 36, 36, 36, 36, 36, 36, 34, 34, 34, 34, 34, 34, 32, 30, 30, 30, 28, 28, 27, 27, 27, 23, 23, ]
   ```
 
@@ -103,24 +103,24 @@ The temperature values are provided in the [data.py](data.py) file that looks li
 The analysis process has three main steps:
 
  1. Read in the data from [data.py](data.py) and iterate over the Fahrenheit temperatures
- 2. Convert the Fahrenheit temperature to Celsius using `fahrToCelsius` function from that was created in Problem 1
- 3. Reclassify the converted temperature using the `tempClassifier` function that was created in Problem 2
+ 2. Convert the Fahrenheit temperature to Celsius using your `fahrToCelsius` function from that was created in Problem 1
+ 3. Classify the converted temperature using the `tempClassifier` function that was created in Problem 2
 
-In more detail, your should do following (also criteria for grading):
+In more detail, you should do following (also criteria for grading):
 
- - create a new script called `temp_analyzer.py` and write all your code to that script from now on
- - in `temp_analyzer.py`, import the `temp_data` from [data.py](data.py) that is a list of Fahrenheit temperatures (list should have 336 values).
- - import also the `fahrToCelsius` and `tempClassifier` functions from `functions.py`
- - create an empty list called `temp_classes` (will be filled with temperature class numbers later)
- - iterate over the Fahrenheit temperature values in the `temp_data` list (one by one) and:
-    - create a new variable called `temp_celsius` in which you should assign the temperature in Celsius by using the `fahrToCelsius` function to convert the Fahrenheit temperature into Celsius.
-    - create a new variable called `temp_class` in which you should assign the temperature class number (0, 1, 2, or 3) by using the `tempClassifier` function
-    - add the `temp_class` value into the `temp_classes` -list.
+ - Create a new script called `temp_analyzer.py` and write all your code to that script from now on
+ - In `temp_analyzer.py`, import the `tempData` from [data.py](data.py), which is a list of Fahrenheit temperatures (the list should have 336 values).
+ - Also import the `fahrToCelsius` and `tempClassifier` functions from `functions.py`
+ - Create an empty list called `tempClasses` (which will be filled with temperature class numbers later)
+ - Iterate over the Fahrenheit temperature values in the `tempData` list (one by one) and:
+    - Create a new variable called `tempCelsius` in which you should assign the temperature in Celsius using the `fahrToCelsius` function to convert the Fahrenheit temperature into Celsius.
+    - Create a new variable called `tempClass` in which you should assign the temperature class number (0, 1, 2, or 3) using the `tempClassifier` function
+    - Add the `tempClass` value to the `temp_classes` list
  - How many temperatures are there within each temperature class?
-    - I.e. count the number of zeros, ones, twos, and threes in the `temp_classes` -list and print out the results at the end of your script.
-    - Tip: You might want to consider using a [`count()` -function](https://www.tutorialspoint.com/python/list_count.htm) *OR* a `for` -loop to find this out.
- - comment your code and add a docstring at the beginning of your script that explains what the `temp_analyzer` script does and how it is used.
- - commit your `temp_analyzer.py` script to your own GitHub Exercise 4 repository
+    - Count the number of zeros, ones, twos, and threes in the `tempClasses` list and print out the results at the end of your script
+    - Tip: You might want to consider using a [`count()` function](https://www.tutorialspoint.com/python/list_count.htm) *OR* a `for` loop to handle this
+ - Add comments in your code and a docstring at the beginning of your script that explains what the `temp_analyzer` script does and how it is used.
+ - Commit your `temp_analyzer.py` script to your own GitHub repository for Exercise 4
 
 # Answers
 

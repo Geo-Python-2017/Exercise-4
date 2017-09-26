@@ -49,9 +49,9 @@ If everything in your script is working properly the following test case should 
 
 We wish you to think and answer to following questions based on the materials and ideas that you learned during the lecture:
 
-  1. Is the concept of function clear to you? If not, what do you not understand?
-  2. What are the benefits of using functions in your script?
-  3. Does it matter in which order the functions are written in a script? If you think it does, why?
+  1. Is the concept of function clear to you? If not, what do you not understand? (**0.25 points**)
+  2. What are the benefits of using functions in your script? (**0.5 points**)
+  3. Does it matter in which order the functions are written in a script? If you think it does, why? (**0.25 points**)
 
 Write your answers to the [Answers](#answers) -section at the end of this file.
 

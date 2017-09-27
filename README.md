@@ -115,7 +115,7 @@ In more detail, you should do following (also criteria for grading):
  - Iterate over the Fahrenheit temperature values in the `tempData` list (one by one) and:
     - Create a new variable called `tempCelsius` in which you should assign the temperature in Celsius using the `fahrToCelsius` function to convert the Fahrenheit temperature into Celsius.
     - Create a new variable called `tempClass` in which you should assign the temperature class number (0, 1, 2, or 3) using the `tempClassifier` function
-    - Add the `tempClass` value to the `temp_classes` list
+    - Add the `tempClass` value to the `tempClasses` list
  - How many temperatures are there within each temperature class?
     - Count the number of zeros, ones, twos, and threes in the `tempClasses` list and print out the results at the end of your script
     - Tip: You might want to consider using a [`count()` function](https://www.tutorialspoint.com/python/list_count.htm) *OR* a `for` loop to handle this
